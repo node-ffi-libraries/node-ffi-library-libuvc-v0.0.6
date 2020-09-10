@@ -1,0 +1,34 @@
+{
+  "conan": {
+    "packageId": "34cb7de83f8a038fdf6a04644ea265f82fef1be9",
+    "reference": "libuvc/0.0.6@",
+    "remote": "conan-center"
+  },
+  "library": {
+    "name": "libuvc",
+    "reference": "libuvc/0.0.6"
+  },
+  "packager": {
+    "name": "node-ffi-packager",
+    "url": "https://github.com/node-ffi-packager",
+    "version": "1.0.0"
+  },
+  "platform": {
+    "headerFiles": [
+      {
+        "name": "./include/libuvc/libuvc.h",
+        "path": "./include/libuvc/libuvc.h.js"
+      },
+      {
+        "name": "./include/libuvc/libuvc_config.h",
+        "path": "./include/libuvc/libuvc_config.h.js"
+      }
+    ],
+    "libraryDependencies": {
+      "libjpeg": "9d",
+      "libusb": "1.0.23"
+    },
+    "libraryFiles": ["./lib/libuvc.dylib"],
+    "name": "macos-x86_64"
+  }
+}

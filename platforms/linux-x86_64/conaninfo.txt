@@ -1,0 +1,40 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=clang
+    compiler.version=9
+    os=Linux
+
+[requires]
+    libjpeg/9d
+    libusb/1.Y.Z
+
+[options]
+    jpeg_turbo=False
+    shared=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=clang
+    compiler.version=9
+    os=Linux
+
+[full_requires]
+    libjpeg/9d:961755854760682044d37dabfc2d998658edf961
+    libusb/1.0.23:45f07807184dc1358dd140e1d76bb93d1481f53e
+
+[full_options]
+    jpeg_turbo=False
+    shared=True
+    libjpeg:fPIC=True
+    libjpeg:shared=False
+    libusb:enable_udev=True
+    libusb:fPIC=True
+    libusb:shared=False
+
+[recipe_hash]
+    8c94a78630459d0e8f9ae2f11be60685
+
+[env]
+
