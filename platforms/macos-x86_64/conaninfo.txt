@@ -1,0 +1,39 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.version=9.1
+    os=Macos
+
+[requires]
+    libjpeg/9d
+    libusb/1.Y.Z
+
+[options]
+    jpeg_turbo=False
+    shared=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.version=9.1
+    os=Macos
+
+[full_requires]
+    libjpeg/9d:af96383df8ed9748d2eed48fb04099c5914a718f
+    libusb/1.0.23:af96383df8ed9748d2eed48fb04099c5914a718f
+
+[full_options]
+    jpeg_turbo=False
+    shared=True
+    libjpeg:fPIC=True
+    libjpeg:shared=False
+    libusb:fPIC=True
+    libusb:shared=False
+
+[recipe_hash]
+    8c94a78630459d0e8f9ae2f11be60685
+
+[env]
+
