@@ -1,5 +1,5 @@
 [settings]
-    arch=x86_64
+    arch=armv8
     build_type=Release
     compiler=apple-clang
     compiler.version=12.0
@@ -14,15 +14,15 @@
     shared=True
 
 [full_settings]
-    arch=x86_64
+    arch=armv8
     build_type=Release
     compiler=apple-clang
     compiler.version=12.0
     os=Macos
 
 [full_requires]
-    libjpeg/9d:647afeb69d3b0a2d3d316e80b24d38c714cc6900
-    libusb/1.0.23:647afeb69d3b0a2d3d316e80b24d38c714cc6900
+    libjpeg/9d:8fafab5ebfba468fd21a497cfee65cafe294bd9e
+    libusb/1.0.23:8fafab5ebfba468fd21a497cfee65cafe294bd9e
 
 [full_options]
     jpeg_turbo=False

@@ -2,7 +2,7 @@
     arch=x86_64
     build_type=Release
     compiler=clang
-    compiler.version=9
+    compiler.version=11
     os=Linux
 
 [requires]
@@ -17,12 +17,12 @@
     arch=x86_64
     build_type=Release
     compiler=clang
-    compiler.version=9
+    compiler.version=11
     os=Linux
 
 [full_requires]
-    libjpeg/9d:961755854760682044d37dabfc2d998658edf961
-    libusb/1.0.23:45f07807184dc1358dd140e1d76bb93d1481f53e
+    libjpeg/9d:d988447fa516eac7400b2f34e2d4b89e42b4b1a8
+    libusb/1.0.23:535e3a0baae2a89369161475beebd463af4f4f59
 
 [full_options]
     jpeg_turbo=False

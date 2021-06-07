@@ -1,6 +1,6 @@
 {
   "conan": {
-    "packageId": "5059f61390311ebcb390fdf8ccdb55883b02a431",
+    "packageId": "4a6b69ad4662b73171fc6aa328f5465e9e2baee5",
     "reference": "libuvc/0.0.6@",
     "remote": "conan-center"
   },
@@ -28,7 +28,7 @@
       "libjpeg": "9d",
       "libusb": "1.0.23"
     },
-    "libraryFiles": ["./lib/libuvc.so"],
-    "name": "linux-x86_64"
+    "libraryFiles": ["./lib/libuvc.dylib"],
+    "name": "macos-armv8"
   }
 }

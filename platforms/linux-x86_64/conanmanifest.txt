@@ -1,6 +1,6 @@
-1599144879
-conaninfo.txt: 52cbfcbdf3da4d9c6b4b5046b93eb352
+1612862600
+conaninfo.txt: 2e03afea4fc2c662511b2cf59c6398a3
 include/libuvc/libuvc.h: 384db557253cba9c08dfff63cee24704
 include/libuvc/libuvc_config.h: e6ff6ccd60bcf76494a3be0bac54922e
-lib/libuvc.so: 66db12b01ad56254f50c445c3b30009e
+lib/libuvc.so: 4f13858c6de1293d69e77bef31b4d25d
 licenses/LICENSE.txt: 2f1963e0bb88c93463af750daf9ba0c2
