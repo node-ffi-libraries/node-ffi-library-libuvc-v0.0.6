@@ -5,7 +5,7 @@
  * Library: libuvc
  * Conan.io recipe reference: libuvc/0.0.6
  * Conan.io remote: conan-center
- * Conan.io package id: 5059f61390311ebcb390fdf8ccdb55883b02a431
+ * Conan.io package id: 4a6b69ad4662b73171fc6aa328f5465e9e2baee5
  */
 
 const { loadLibrary } = require("../loader");
