@@ -1,7 +1,7 @@
 {
   "name": "@ffi-libraries/libuvc-v0.0.6",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Automatically generated FFI package for libuvc v0.0.6: \"A cross-platform library for USB video devices\". Available for linux-x86_64, macos-armv8, macos-x86_64.",
   "homepage": "https://github.com/node-ffi-libraries/node-ffi-library-libuvc-v0.0.6",
   "repository": "github:node-ffi-libraries/node-ffi-library-libuvc-v0.0.6",
@@ -45,7 +45,7 @@
     "ref-napi": "^3.0.3",
     "ref-struct-di": "^1.1.1",
     "ref-union-di": "^1.0.1",
-    "@ffi-libraries/libjpeg-v9d": "github:node-ffi-libraries/node-ffi-library-libjpeg-v9d#semver:^2.0.0",
-    "@ffi-libraries/libusb-v1.0.23": "github:node-ffi-libraries/node-ffi-library-libusb-v1.0.23#semver:^2.0.0"
+    "@ffi-libraries/libjpeg-v9d": "github:node-ffi-libraries/node-ffi-library-libjpeg-v9d#semver:^2.0.1",
+    "@ffi-libraries/libusb-v1.0.23": "github:node-ffi-libraries/node-ffi-library-libusb-v1.0.23#semver:^2.0.1"
   }
 }
