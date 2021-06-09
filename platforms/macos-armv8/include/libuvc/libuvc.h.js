@@ -1,8 +1,8 @@
 /*
  * This file was automatically generated. It is better to run the generator again, than to manually edit.
  *
- * @ffi-packager/ffi-generate v2.0.1
- * - git commit v2.0.1-1-g9e27804 on branch develop
+ * @ffi-packager/ffi-generate v2.0.2
+ * - git commit v2.0.1-1-g2b4030d on branch develop
  * - clang version 9.0.1-16
  * https://github.com/node-ffi-packager/node-ffi-generate
  *
@@ -292,7 +292,7 @@ const constants = {
   },
 };
 
-// NOTE: defining individual types as "global" constants to be able to reference them without any prefix, but also under the "types" object to be able to reference them recursively.
+// NOTE: defining individual types as "global" constants to be able to reference them without any prefix.
 const types = {};
 
 const js_uchar = ref.types.uchar;
@@ -349,8 +349,8 @@ const uvc_button_callback_t = FunctionProto_1;
 const __uint64_t = js_ulong;
 const uint64_t = __uint64_t;
 const uvc_input_terminal = Struct({
-  prev: types.uvc_input_terminal,
-  next: types.uvc_input_terminal,
+  prev: js_voidPointer,
+  next: js_voidPointer,
   bTerminalID: uint8_t,
   wTerminalType: js_uint32,
   wObjectiveFocalLengthMin: uint16_t,
@@ -361,21 +361,21 @@ const uvc_input_terminal = Struct({
 const uvc_input_terminal_t = uvc_input_terminal;
 const uvc_input_terminal_tPointer = ref.refType(uvc_input_terminal_t);
 const uvc_output_terminal = Struct({
-  prev: types.uvc_output_terminal,
-  next: types.uvc_output_terminal,
+  prev: js_voidPointer,
+  next: js_voidPointer,
 });
 const uvc_output_terminal_t = uvc_output_terminal;
 const uvc_output_terminal_tPointer = ref.refType(uvc_output_terminal_t);
 const uvc_selector_unit = Struct({
-  prev: types.uvc_selector_unit,
-  next: types.uvc_selector_unit,
+  prev: js_voidPointer,
+  next: js_voidPointer,
   bUnitID: uint8_t,
 });
 const uvc_selector_unit_t = uvc_selector_unit;
 const uvc_selector_unit_tPointer = ref.refType(uvc_selector_unit_t);
 const uvc_processing_unit = Struct({
-  prev: types.uvc_processing_unit,
-  next: types.uvc_processing_unit,
+  prev: js_voidPointer,
+  next: js_voidPointer,
   bUnitID: uint8_t,
   bSourceID: uint8_t,
   bmControls: uint64_t,
@@ -384,8 +384,8 @@ const uvc_processing_unit_t = uvc_processing_unit;
 const uvc_processing_unit_tPointer = ref.refType(uvc_processing_unit_t);
 const uint8_t_array_16 = ArrayType(uint8_t, 16);
 const uvc_extension_unit = Struct({
-  prev: types.uvc_extension_unit,
-  next: types.uvc_extension_unit,
+  prev: js_voidPointer,
+  next: js_voidPointer,
   bUnitID: uint8_t,
   guidExtensionCode: uint8_t_array_16,
   bmControls: uint64_t,
